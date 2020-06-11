@@ -11,7 +11,7 @@ love6(4, 5) → False
 love6(1, 5) → True
 
 """
-
+#solution 1: 
 def love6(a, b):
   if a == 6 or b == 6:
     return True
@@ -20,5 +20,5 @@ def love6(a, b):
   return False
 
 
-
+#solution 2: 
   return a == 6 or b == 6 or a + b == 6 or abs(a-b) == 6
